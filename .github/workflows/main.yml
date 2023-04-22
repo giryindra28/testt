@@ -23,10 +23,10 @@ jobs:
           git config --local user.name "giryindra28"
           git config --local user.email "giryindra28@gmail.com"
           git add .
-          git commit -m "[AUTO:BUILD] build from main.js"
+          git commit -m "Deploy file main.js from src"
       - name: Push
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.TOKEN }}
           branch: "master"
-          repository: "giryindra28/jobhun-actions"
+          repository: "giryindra28/Action_github_giry"

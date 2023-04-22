@@ -1,1 +1,1 @@
-alert("Script ini hasil bundling webpack");
+alert("Jika muncul alerts ini berarti sudah berhasil deploy file js");
