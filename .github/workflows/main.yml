@@ -25,8 +25,8 @@ jobs:
           git add .
           git commit -m "Deploy file main.js from src"
       - name: Push
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@maste
         with:
           github_token: ${{ secrets.TOKEN }}
-          branch: "main"
+          branch: "maste"
           repository: "giryindra28/sfagf"
