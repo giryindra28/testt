@@ -29,4 +29,4 @@ jobs:
         with:
           github_token: ${{ secrets.TOKEN }}
           branch: "master"
-          repository: "giryindra28/Action_github_giry"
+          repository: "giryindra28/giry-actions-github"
